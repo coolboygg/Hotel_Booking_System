@@ -1,0 +1,46 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+
+}
+
+.navbar {
+    background-color: none;
+}
+
+.custom-bg {
+    background-color: #2ec1ac;
+}
+
+.custom-bg:hover {
+    background-color: #279e82;
+}
+
+.custom-alert {
+    position: fixed;
+    top: 25px;
+    right: 2px;
+}
+
+
+#dashboard-menu {
+    position: fixed;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    #dashboard-menu {
+        height: auto;
+        width: 100%;
+    }
+
+    #main-content {
+        margin-top: 60px;
+
+    }
+}
